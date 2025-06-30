@@ -23,8 +23,50 @@
   - Dedicated Instances
   - Dedicated Hosts
 ### EC2 Image Builder
-- Automates the creation, maintenance, validation, and testing of EC2 AMIs
-- Helps keep images secure and up-to-date
+- Set Up
+  - Name
+  - Description
+  - Tags
+  - Scheduler
+- Recipe 
+  - Pre Build
+  - Create your own  
+- Components
+  - Build components
+    - Software and Settings
+  - Test components
+    - Runs After image build
+  - Components Document
+    - yaml File
+      - Code
+      - Commands
+      - Defintions
+    - Documents phase
+      - Build
+      - Validate
+      - Test
+
+#### Example Document
+```yaml
+     phases
+      -
+        name: 'build'
+        steps:
+          -
+            name: SampleS3DownLoad
+            action: S3Download
+            timeoutSeconds: 60
+            maxAttempts:3
+            onFailure: Abort
+            inputs:
+              - 
+               source: 's3://sample-bucket/sample1.ps1'
+               destination: 'C:\sample1.ps1'
+              - 
+               source: 's3://sample-bucket/sample2.ps1'
+               destination: 'C:\sample2.ps1'
+```
+    
 
 ### AWS Elastic Beanstalk
 - Platform as a Service (PaaS) for deploying web apps and services
