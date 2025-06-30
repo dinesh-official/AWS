@@ -22,4 +22,38 @@
 - Dedicated Tenancy
   - Dedicated Instances
   - Dedicated Hosts
+### EC2 Image Builder
+- Automates the creation, maintenance, validation, and testing of EC2 AMIs
+- Helps keep images secure and up-to-date
 
+### AWS Elastic Beanstalk
+- Platform as a Service (PaaS) for deploying web apps and services
+- Supports multiple languages (Java, .NET, PHP, Node.js, Python, etc.)
+
+### AWS Lambda
+- Serverless compute service that runs your code in response to events
+- Automatically manages compute resources and scaling
+
+### AWS Batch
+- Run batch computing workloads at scale using containers
+- Efficiently schedules and executes jobs on AWS infrastructure
+
+### Amazon Lightsail
+- Simplified cloud VPS for quick deployments
+- Ideal for small apps, websites, and dev/test environments
+
+### AWS App Runner
+- Deploy containerized web apps and APIs directly from source code or image
+- Automatically handles scaling, load balancing, and TLS
+
+### AWS Outposts
+- Bring native AWS services to on-premises environments
+- Ideal for hybrid cloud setups requiring low latency or data residency
+
+### AWS Serverless Application
+- Framework for building and deploying serverless apps
+- Uses AWS SAM (Serverless Application Model) or CloudFormation
+
+### AWS SimSpace Weaver
+- Simulate large-scale spatial environments in real time
+- Great for training, urban planning, and event simulation
