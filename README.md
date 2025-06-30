@@ -50,7 +50,7 @@
 - Bring native AWS services to on-premises environments
 - Ideal for hybrid cloud setups requiring low latency or data residency
 
-### AWS Serverless Application
+### AWS Serverless Application Repository
 - Framework for building and deploying serverless apps
 - Uses AWS SAM (Serverless Application Model) or CloudFormation
 
