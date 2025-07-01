@@ -99,3 +99,22 @@
 ### AWS SimSpace Weaver
 - Simulate large-scale spatial environments in real time
 - Great for training, urban planning, and event simulation
+
+
+### Elastic Load Balancer (ELB)
+### ELB Components
+- Listener
+- Target Groups
+- Rules 
+
+#### Types 
+- Application Load Balancer
+  - operates request level
+  - sutable for application like Apachi or website hosting
+- Network Load Balancer
+  - Ulter high perfoemance
+  - Operats connectin level routing trafic ,routing trafic to traget within your vpc
+  - Handels million of traffic per second
+- Classic Load Balancer
+  -
+
