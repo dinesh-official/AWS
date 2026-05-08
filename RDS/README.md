@@ -1,7 +1,3 @@
-Here is the cleaned and polished version of your documentation, with improved formatting, consistency, and readability.
-
----
-
 # AWS RDS Local Developer Access Methods
 
 This document explains common and secure ways for developers to access an AWS RDS database from their local machines.
